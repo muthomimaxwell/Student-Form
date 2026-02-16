@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    
+}
+body{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0.85rem;
+    font-family: 'inter', system-ui ,sans-serif;
+    border: none;
+    gap: 2rem;
+    
+}
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px; 
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+input::placeholder{
+    font-size: 0.75rem;
+    color: #999;
+}
+h3{
+    color: black;
+    text-align: center;
+}
+.subheader h2 {
+    top: -14px;
+    padding: 0 12px;
+  color: grey;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    cursor: text;
+    width: 100%;
+    font-size: 1rem;
+}
+.login-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    border: none;
+    color: #ffffff;
+    background-color: #2F80ED;
+    border-radius: 6px;
+    padding: 12px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    ;
+}
+.login{
+    border-right: 1px solid #e0e0e0;
+     padding-right: 20px;
+     /*font-weight: 300;*/
+}
+.register{
+    padding-left: 20px;
+}
+.text{
+    font-size: 12px; 
+    text-align: center; /*places the text at the center*/
+    padding: 10px 20px; /* padding vertical horizontal;*/
+
+
+}
+span{
+    color: blue;
+    font-weight: 500;
+}
+.studForm{
+     display: flex;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  border: 2px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 20px;
+  background-color: #fff;
+}
+.regbtn{
+    width: 100%;
+    display: block;
+    padding: 12px 16px;
+    background-color: #2F80ED;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease, box-shadow 0.2s ease;
+}
+button:hover {
+  background-color: #256AD9;
+}
+button:active{
+    transform: scale(0.98);
+}

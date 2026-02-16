@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="portal-wrapper">
+    <div class="subheader">
+    <h2>Student Portal</h2>
+  </div>
+    <div class="studForm">
+        
+ <div class="login">
+    <div class="field">
+        <h3>Login</h3>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email">
+    </div>
+    <div class="field">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password">
+    </div>
+    <button class="login-btn">Login</button>
+    <p class="text">
+        Don't have an account? <span>Register</span>
+    </p>
+ </div> 
+ <div class="register">
+    <div class="fied">
+        <h3>Register</h3>
+        <label for="name">Full Name</label>
+        <input type="text" id="text" placeholder="Enter full name">
+    </div>
+    <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter email" required>
+    </div>
+    <div class="field">
+        <label for="ID">Student ID</label>
+        <input type="text" id="studentId" placeholder="Enter student ID" required maxlength="10" pattern="\d+" title="Digits only">
+        <span id="error-msg" style="color: red; display: none;">Digits required</span>
+    </div>
+    <div class="field">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Create password" required minlength="6">
+    </div>
+    <button class="regbtn">Register</button>
+    <p class="text">Already have an account? <span>Login</span></p>
+ </div>
+     </div> 
+     </div> 
+</body>
+</html>
